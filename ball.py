@@ -6,8 +6,8 @@ class Ball:
         self.x = x
         self.y = y
         self.rad = 10
-        self.speed_x = random.choice[1, -1]
-        self.speed_y = random.choice[1, -1]
+        self.speed_x = random.choice([1, -1])
+        self.speed_y = random.choice([1, -1])
 
     def draw(self, win):
         pygame.draw.circle(win, (255, 255, 255), (self.x, self.y), self.rad)
